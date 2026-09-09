@@ -7,6 +7,12 @@ interface Book {
 }
 
 // Your code here 👇
+interface Book {
+  title: string
+  author: string
+  pages: number
+}
+
 const book: Book = {
   title: "The Great Gatsby",
   author: "F. Scott Fitzgerald",
